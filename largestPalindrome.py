@@ -40,3 +40,4 @@ for n in range(999,100,-1):
 			break
 print "{x1} x {x2} = {x3}".format(x1=x1, x2=x2,x3 = large_mul)
 	
+# Answer = 993 x 913 = 906609
