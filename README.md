@@ -7,3 +7,25 @@ My Objectives
 -------------
 	* Learn Python Programming
 	* Solve Euler Problems
+	
+	
+GIT Commands Help
+-----------------
+	
+	init git commands
+	-----------------
+	* git init
+	
+	set remote source location
+	--------------------------
+	* git remote add origin http://github.com/ptanoop/solvingEuler.git
+	
+	committing source to remote
+	---------------------------
+	* git add *.py
+	* git commit -m "*comment*"
+	* git push -u origin master
+	
+	pulling from master
+	-------------------
+	* git pull
