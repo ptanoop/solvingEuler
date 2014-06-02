@@ -28,4 +28,7 @@ for i in range (1,101):
 	square_of_sum = square_of_sum + i
 square_of_sum = square_of_sum * square_of_sum
 difference = int(math.fabs(square_of_sum - sum_of_squares))
-print difference	
+print "{x1}-{x2} = {x3}".format(x1=square_of_sum ,x2=sum_of_squares, x3=difference);
+
+
+#Answer = 25164150
