@@ -12,6 +12,7 @@
 """
 
 import math
+import time
 
 def isprime(num):
 	is_prime = True;
@@ -22,6 +23,7 @@ def isprime(num):
 			break
 	return is_prime
 
+c  = time.time()
 is10001prime = False
 num = 1
 primepos = 0
@@ -32,5 +34,6 @@ while not is10001prime:
 	if primepos==10001:
 		is10001prime = True
 print "10001st prime = {x} ".format(x=num)
+print time.time()-c
 
 # Answer = 104743

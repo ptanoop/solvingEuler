@@ -15,3 +15,5 @@ for n in range(1,1000):
 		sum = sum + n
 print sum
 
+
+# Answer = 233168
