@@ -13,7 +13,7 @@
 		Divisible 18 means divisible by 3, 6, 9
 		Divisible 16 means divisible by 8
 		Divisible 14 means divisible by 7
-		So only if we want to check number is divisible by 11 - 20 
+		So only we want to check number is divisible by 11 - 20 
 	
 	
 """
