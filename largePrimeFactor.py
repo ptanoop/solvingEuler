@@ -14,7 +14,7 @@ import math
 
 def isprime(num):
 	is_prime = True;
-	sqr = int(math.sqrt(num))
+	sqr = int(math.sqrt(num)) + 1
 	for n in range (2, sqr):
 		if(num%n==0):
 			is_prime = False
