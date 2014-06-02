@@ -30,3 +30,4 @@ for n in range(2,sqr):
 		largePrimeFactor = n
 print largePrimeFactor
 
+# Answer = 6857
